@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jogo da velha</h1>
+
+    <form id="form">
+        <label for="html"><h3>Jogar contra CPU?</h3></label><br>
+        <input type="radio" id="cpu" checked name="fav_language" value="">
+        <label for="css">Sim</label>
+        <input type="radio" id="cpu" name="fav_language" value="">
+        <label for="html">Não</label><br><br>
+
+    </form>
+            
+
+    </form>
+
+    <table id="tabela" width="200px" height="200x" border="1">
+        <tr>
+            <td><img src="img/transp.png" alt="img" id="c1" onclick="checkjogo(this.id)"></td>
+            <td><img src="img/transp.png" alt="img" id="c2" onclick="checkjogo(this.id)"></td>
+            <td><img src="img/transp.png" alt="img" id="c3" onclick="checkjogo(this.id)"></td>
+        </tr>
+        <tr>
+            <td><img src="img/transp.png" alt="img" id="c4" onclick="checkjogo(this.id)"></td>  
+            <td><img src="img/transp.png" alt="img" id="c5" onclick="checkjogo(this.id)"></td>
+            <td><img src="img/transp.png" alt="img" id="c6" onclick="checkjogo(this.id)"></td>
+        </tr>
+        <tr>
+            <td><img src="img/transp.png" alt="img" id="c7" onclick="checkjogo(this.id)"></td>
+            <td><img src="img/transp.png" alt="img" id="c8" onclick="checkjogo(this.id)"></td>
+            <td><img src="img/transp.png" alt="img" id="c9" onclick="checkjogo(this.id)"></td>
+        </tr>
+    </table>
+    <div id="result"></div>
+</body>
+<script src="externo.js"></script>
+</html>
